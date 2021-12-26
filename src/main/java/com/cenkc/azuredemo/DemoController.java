@@ -11,6 +11,6 @@ public class DemoController {
 
     @GetMapping("/")
     public String demoEndPoint() {
-        return "Greetings from Spring Boot";
+        return "Greetings from Spring Boot, second deployment";
     }
 }
